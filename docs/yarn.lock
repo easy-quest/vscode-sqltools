@@ -1575,10 +1575,10 @@
     escape-string-regexp "^1.0.5"
     lodash.deburr "^4.1.0"
 
-"@sqltools/formatter@*":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@sqltools/formatter/-/formatter-1.2.1.tgz#2b90b359a1d2ed578f41316787e4a074e0feb765"
-  integrity sha512-Sgj/oi6xHKOiPqCMad3V3uPOHn5jFKGLVQm9Kcp+nWj52pMf7e4ejyIbVQuoHMWLCY7/ndAGIHLWCg1xhldSmw==
+"@sqltools/formatter@1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@sqltools/formatter/-/formatter-1.2.3.tgz#1185726610acc37317ddab11c3c7f9066966bd20"
+  integrity sha512-O3uyB/JbkAEMZaP3YqyHH7TMnex7tWyCbCI4EfJdOCoN6HIhqdJBWTM6aCCiWQ/5f5wxjgU735QAIpJbjDvmzg==
 
 "@svgr/babel-plugin-add-jsx-attribute@^4.2.0":
   version "4.2.0"

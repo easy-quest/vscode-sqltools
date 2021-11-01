@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@mdx-js/runtime": "^1.5.1",
-    "@sqltools/formatter": "*",
+    "@sqltools/formatter": "1.2.3",
     "docz": "^1.2.0",
     "docz-core": "^1.2.0",
     "docz-theme-default": "^1.2.0",
