@@ -13,7 +13,7 @@
     "start": "yarn run docz:dev"
   },
   "dependencies": {
-    "@mdx-js/runtime": "^1.5.1",
+    "@mdx-js/runtime": "^1.6.22",
     "@sqltools/formatter": "*",
     "docz": "^1.2.0",
     "docz-core": "^1.2.0",
