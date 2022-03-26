@@ -1,0 +1,542 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - docz-core > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - gatsby-plugin-offline > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - styled-components > @babel/traverse > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > @babel/core > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > babel-plugin-export-metadata > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > docz-utils > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > load-cfg > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > rehype-docz > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > webpack-bundle-analyzer > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > webpack-manifest-plugin > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - styled-components > babel-plugin-styled-components > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - gatsby-plugin-offline > cheerio > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - styled-components > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > @svgr/webpack > @babel/core > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > remark-docz > @babel/generator > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > docz-utils > @babel/traverse > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > styled-components > @babel/traverse > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - '@mdx-js/runtime > @mdx-js/mdx > @babel/core > lodash':
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > @babel/core > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > babel-plugin-export-metadata > @babel/cli > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > react-docgen > @babel/core > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > babel-plugin-export-metadata > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > babel-preset-react-app > @babel/core > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > rehype-docz > docz-utils > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > docz-utils > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > load-cfg > @babel/register > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > load-cfg > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > react-dev-utils > inquirer > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > react-docgen > async > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > source-map-loader > async > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > rehype-docz > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > webpack-bundle-analyzer > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > webpack-manifest-plugin > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > styled-components > babel-plugin-styled-components > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - styled-components > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > @svgr/webpack > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > docz-utils > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > remark-docz > @babel/generator > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - styled-components > babel-plugin-styled-components > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > styled-components > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > babel-plugin-export-metadata > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - '@mdx-js/runtime > @mdx-js/mdx > @babel/core > @babel/helper-module-transforms > lodash':
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > @svgr/webpack > @babel/core > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > react-docgen > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > load-cfg > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > remark-docz > @babel/generator > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > rehype-docz > docz-utils > @babel/traverse > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > docz-utils > @babel/traverse > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - '@mdx-js/runtime > @mdx-js/mdx > remark-mdx > @babel/core > lodash':
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > @babel/core > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > babel-plugin-export-metadata > @babel/cli > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > react-docgen-actual-name-handler > react-docgen > @babel/core > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > react-docgen > @babel/core > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > babel-plugin-export-metadata > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > babel-preset-react-app > @babel/core > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > rehype-docz > docz-utils > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > docz-utils > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > load-cfg > @babel/register > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > load-cfg > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > react-dev-utils > inquirer > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > react-docgen-actual-name-handler > react-docgen > async > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > react-docgen > async > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > source-map-loader > async > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > webpack-dev-server > portfinder > async > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > rehype-docz > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > webpack-bundle-analyzer > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > webpack-manifest-plugin > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > @svgr/webpack > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > docz-utils > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > styled-components > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - '@mdx-js/runtime > @mdx-js/mdx > @babel/core > @babel/helpers > @babel/traverse > lodash':
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > @svgr/webpack > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > babel-plugin-export-metadata > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > react-docgen > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > rehype-docz > docz-utils > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > docz-utils > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > remark-docz > @babel/generator > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > load-cfg > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > styled-components > babel-plugin-styled-components > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - styled-components > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > babel-plugin-export-metadata > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - '@mdx-js/runtime > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > lodash':
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > @svgr/webpack > @babel/core > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > react-docgen-actual-name-handler > react-docgen > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > react-docgen > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > load-cfg > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > remark-docz > @babel/generator > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > rehype-docz > docz-utils > @babel/traverse > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > docz-utils > @babel/traverse > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > @mdx-js/loader > @mdx-js/mdx > remark-mdx > @babel/core > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > babel-plugin-export-metadata > @babel/cli > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > react-docgen-actual-name-handler > react-docgen > @babel/core > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > react-docgen > @babel/core > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > babel-preset-react-app > @babel/core > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > rehype-docz > docz-utils > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > load-cfg > @babel/register > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > react-dev-utils > inquirer > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > react-docgen-actual-name-handler > react-docgen > async > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > react-docgen > async > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > source-map-loader > async > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > webpack-dev-server > portfinder > async > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > @svgr/webpack > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - '@mdx-js/runtime > @mdx-js/mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash':
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > @svgr/webpack > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > babel-plugin-export-metadata > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > react-docgen > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > rehype-docz > docz-utils > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > docz-utils > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - '@mdx-js/runtime > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helpers > @babel/traverse > lodash':
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > @svgr/webpack > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > babel-plugin-export-metadata > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > react-docgen-actual-name-handler > react-docgen > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > react-docgen > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > rehype-docz > docz-utils > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > docz-utils > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > remark-docz > @babel/generator > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > load-cfg > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > load-cfg > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > docz-utils > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > styled-components > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > babel-plugin-export-metadata > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > @mdx-js/loader > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > react-docgen-actual-name-handler > react-docgen > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > react-docgen > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > load-cfg > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > rehype-docz > docz-utils > @babel/traverse > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > @mdx-js/loader > @mdx-js/mdx > remark-mdx > @babel/core > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > react-docgen-actual-name-handler > react-docgen > @babel/core > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > react-docgen-actual-name-handler > react-docgen > async > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > webpack-dev-server > portfinder > async > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - '@mdx-js/runtime > @mdx-js/mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash':
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > @svgr/webpack > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > @svgr/webpack > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > babel-plugin-export-metadata > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > react-docgen > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > babel-preset-react-app > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - '@mdx-js/runtime > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash':
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > @svgr/webpack > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > babel-plugin-export-metadata > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > react-docgen-actual-name-handler > react-docgen > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > react-docgen > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > rehype-docz > docz-utils > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > docz-utils > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > @mdx-js/loader > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > babel-plugin-export-metadata > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > react-docgen-actual-name-handler > react-docgen > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > react-docgen > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > rehype-docz > docz-utils > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > load-cfg > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > load-cfg > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > load-cfg > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > rehype-docz > docz-utils > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > docz-utils > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > @mdx-js/loader > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > react-docgen-actual-name-handler > react-docgen > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > @mdx-js/loader > @mdx-js/mdx > remark-mdx > @babel/core > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - '@mdx-js/runtime > @mdx-js/mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > @svgr/webpack > @svgr/core > @svgr/plugin-jsx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > babel-plugin-export-metadata > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > react-docgen > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > load-cfg > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - '@mdx-js/runtime > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash':
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > @svgr/webpack > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > @svgr/webpack > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > babel-plugin-export-metadata > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > react-docgen-actual-name-handler > react-docgen > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > react-docgen > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > babel-preset-react-app > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > @mdx-js/loader > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > babel-plugin-export-metadata > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > react-docgen-actual-name-handler > react-docgen > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > react-docgen > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > rehype-docz > docz-utils > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > @mdx-js/loader > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > react-docgen-actual-name-handler > react-docgen > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > load-cfg > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > load-cfg > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > rehype-docz > docz-utils > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > docz-utils > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > @mdx-js/loader > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - '@mdx-js/runtime > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > @svgr/webpack > @svgr/core > @svgr/plugin-jsx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > @svgr/webpack > @svgr/core > @svgr/plugin-jsx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > babel-plugin-export-metadata > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > react-docgen-actual-name-handler > react-docgen > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > react-docgen > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > babel-plugin-export-metadata > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > load-cfg > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > load-cfg > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > @mdx-js/loader > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > @svgr/webpack > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > babel-plugin-export-metadata > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > react-docgen-actual-name-handler > react-docgen > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > react-docgen > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > babel-preset-react-app > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > @mdx-js/loader > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > react-docgen-actual-name-handler > react-docgen > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > @mdx-js/loader > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > load-cfg > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - '@mdx-js/runtime > @mdx-js/mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > react-docgen > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > rehype-docz > docz-utils > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > @mdx-js/loader > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > @svgr/webpack > @svgr/core > @svgr/plugin-jsx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > @svgr/webpack > @svgr/core > @svgr/plugin-jsx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > @svgr/webpack > @svgr/core > @svgr/plugin-jsx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > babel-plugin-export-metadata > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > react-docgen-actual-name-handler > react-docgen > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > react-docgen > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > babel-plugin-export-metadata > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > load-cfg > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > load-cfg > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > @mdx-js/loader > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > react-docgen-actual-name-handler > react-docgen > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > @mdx-js/loader > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - '@mdx-js/runtime > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > react-docgen-actual-name-handler > react-docgen > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > react-docgen > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > babel-plugin-export-metadata > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > load-cfg > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > @mdx-js/loader > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > @svgr/webpack > @svgr/core > @svgr/plugin-jsx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > @svgr/webpack > @svgr/core > @svgr/plugin-jsx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > react-docgen-actual-name-handler > react-docgen > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > babel-plugin-export-metadata > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > load-cfg > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > @mdx-js/loader > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > @mdx-js/loader > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-core > @svgr/webpack > @svgr/core > @svgr/plugin-jsx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > react-docgen-actual-name-handler > react-docgen > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > react-docgen > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > babel-plugin-export-metadata > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > load-cfg > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > @mdx-js/loader > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > @svgr/webpack > @svgr/core > @svgr/plugin-jsx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > @mdx-js/loader > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz > docz-core > @svgr/webpack > @svgr/core > @svgr/plugin-jsx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > react-docgen-actual-name-handler > react-docgen > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > babel-plugin-export-metadata > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > load-cfg > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > @mdx-js/loader > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
+    - docz-theme-default > docz > docz-core > @svgr/webpack > @svgr/core > @svgr/plugin-jsx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T02:47:03.227Z'
