@@ -25,7 +25,7 @@
     "node-sql-parser": "^1.7.7",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "rimraf": "^3.0.2",
+    "rimraf": "^4.0.0",
     "tempy": "^0.6.0"
   },
   "scripts": {
