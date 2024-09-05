@@ -37,8 +37,8 @@
     "@sqltools/types": "latest",
     "@sqltools/log": "latest",
     "env-paths": "^2.2.0",
-    "make-dir": "^3.1.0",
-    "resolve": "^1.17.0",
+    "make-dir": "^4.0.0",
+    "resolve": "^1.21.0",
     "vscode-languageserver": "6.1.1"
   }
 }
