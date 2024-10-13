@@ -13,10 +13,10 @@
     "start": "yarn run docz:dev"
   },
   "dependencies": {
-    "@mdx-js/runtime": "^1.5.1",
+    "@mdx-js/runtime": "^2.0.0",
     "@sqltools/formatter": "*",
-    "docz": "^1.2.0",
-    "docz-core": "^1.2.0",
+    "docz": "^2.0.0",
+    "docz-core": "^2.0.0",
     "docz-theme-default": "^1.2.0",
     "gatsby-plugin-offline": "^2.2.7",
     "lodash": "^4.17.19",
